@@ -4,7 +4,7 @@ def main():
         try:
             x = int(input("Enter X: "))
             y = int(input("Enter Y: "))
-            return x/y
+            print(x/y)
         except ZeroDivisionError:
             print("Cannot divide by zero!")
 
